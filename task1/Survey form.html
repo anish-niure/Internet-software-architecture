@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: rgb(7, 188, 128);
+            text-align: center;
+        }
+        .box{
+            background-color:white;
+            max-width: 30%;
+            margin-left: 34%;
+            padding: 10px 20px 10px 15px;
+        }
+        body{
+            background-color: rgb(225, 225, 225);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        #form{
+            width: 100%;
+            height:25px;
+        }
+    </style>
+</head>
+<body>
+ <h1>Herald College Kathmandu Survey Form</h1>
+    <div class="box">
+        <!-- form -->
+        <form>
+            <p>Name</p><input id="form" type="text" Name="name" placeholder="Enter Your Name">
+            <p>Email</p><input id="form" type="text" Name="email" placeholder="Enter Your Email">
+            <p>Age</p><input id="form" type="text" Name="age" placeholder="Enter Your Age">
+        </form>
+        <br>
+
+        <!-- options -->
+        <label for="option">Which option best describes you</label><br>
+        <select id="form">
+            <option> Teacher </option>
+            <option>Student</option>
+            <option>Woking Staff</option>
+        </select>
+        <br>
+
+        <!-- Radio -->
+        <p>Would you recomend Herald college Kathmandu to a friend?</p>
+       <label><input type="radio" name="option">Yes</label><br>
+       <label><input type="radio" name="option">No</label><br>
+       <label><input type="radio" name="option">Maybe</label>
+
+        <!-- Checkbox -->
+       <p>Language and Frameworks Known (Check all that apply)</p>
+       <label><input type="checkbox"> C</label><br>
+       <label><input type="checkbox"> C++</label><br>
+       <label><input type="checkbox"> C#</label><br>
+       <label><input type="checkbox"> Java</label><br>
+       <label><input type="checkbox"> Python</label><br>
+       <label><input type="checkbox"> Javascript</label><br>
+       <label><input type="checkbox"> React</label><br>
+       <label><input type="checkbox"> Angular</label><br>
+       <label><input type="checkbox"> Django</label><br>
+       <label><input type="checkbox"> Spring</label><br>
+
+        <!-- Suggestion box -->
+       <p>Any Comment or Suggestion</p>
+        <textarea id="form" name="Submit"style="height: 50px;"></textarea><br><br>
+
+        <!-- Button -->
+       <button onclick="alert('Thank you!! Form was submitted ')" style="height: 20px; background-color:rgb(12, 224, 153); width: 100%; height:35px; margin-right:1%; border:1px; border-radius: 10px;">Submit</button>
+    </div>
+</body>
+</html>
