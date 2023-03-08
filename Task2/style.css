@@ -1,0 +1,78 @@
+body{
+    /* background-color: rgb(18,193,204); */
+}
+.first {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 2px;
+
+}
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 0px;
+    /* z-index: 100000; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.0);/* optional styling */
+    z-index: 1; /* ensure the navigation bar stays on top */
+}
+nav, ul, li, a {
+    text-decoration: none;
+    display:inline-block;
+    padding: 5px 30px;
+}
+button{
+    background-color: rgb(106, 239, 49);
+    border: none;
+    border-radius: 40%;
+    padding: 8px 30px;
+
+}
+#home{
+    padding-top: 70px;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+.home2{
+    font-size:100px;
+    padding-top: 300px;
+}
+.para1{
+    padding-top: 65px;
+    padding-left: 400px;
+    font-size: 50px;
+}
+
+#about{
+    display: flex;
+    height: 810px;
+    background-color:rgb(18,193,204) ;
+}
+.about1{
+    font-size: 30px;
+}
+#benifits {
+    font-size: 30px;
+    display: grid;
+    background-color: rgb(24, 126, 134);
+}
+
+.others {
+    display: flex !important;
+}
+
+#contact {
+    background-image: url(banana.jpg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    padding-bottom: 2px;
+    height: 810px;
+    display: flex;
+}
+.sub-title{
+    padding-left: 250px;
+}
