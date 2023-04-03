@@ -1,0 +1,21 @@
+#movie{
+    background-color: rgb(141, 144, 144);
+    /* padding:300px 400px; */
+    height:100px;
+    width: 500px;
+    text-align: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 270px; */
+    padding-top:10px;
+    padding-bottom: 10px;
+
+    opacity: 0.7;
+}
+body{
+    background-image: url("movie.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

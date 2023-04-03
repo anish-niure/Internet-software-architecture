@@ -1,0 +1,20 @@
+body{
+    background-image:url("github.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#git{
+    background-color: rgb(182, 188, 188);
+    height:270px;
+    width: 500px;
+    text-align: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 270px;
+    padding-top:50px;
+    padding-bottom: 10px;
+
+    opacity: 0.4;
+}
